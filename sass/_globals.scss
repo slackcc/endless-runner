@@ -1,0 +1,93 @@
+$red-font-color: #f10d36;
+$dark-text: #262626;
+
+// Fonts
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600);
+@font-face {
+    font-family: 'digital_dream_fatnarrow';
+    src: url('fonts/DIGITALDREAMFATNARROW-webfont.eot');
+    src: url('fonts/DIGITALDREAMFATNARROW-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/DIGITALDREAMFATNARROW-webfont.woff') format('woff'),
+         url('fonts/DIGITALDREAMFATNARROW-webfont.ttf') format('truetype'),
+         url('fonts/DIGITALDREAMFATNARROW-webfont.svg#digital_dream_fatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body, html, p {
+  font-family: "Raleway", arial, sans-serif;
+  color: $dark-text;
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+#wrapper {
+  h1,h2,h3,h4,h5 {
+    font-family: 'digital_dream_fatnarrow', sans-serif !important;
+    color: $red-font-color;
+    font-weight: 400;
+
+    a {
+      color: $red-font-color;
+    }
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $red-font-color;
+
+    &:hover,
+    &:active {
+      color: $red-font-color !important;
+    }
+  }
+
+  ol li {
+    font-size: 15px;
+  }
+
+
+
+  input[type=submit] {
+
+    @include border-radius(5px);
+
+    color: white;
+    background: $red-font-color;
+    border: none;
+  }
+
+  // Button Styling
+
+  .button {
+    
+    @include border-radius(10px);
+
+    background: $red-font-color !important;
+    color: white !important;
+    padding: 10px 20px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    min-width: 200px !important;
+    text-decoration: none !important;
+
+    &:hover {
+      color: white !important;
+      background: darken( $red-font-color, 9) !important;
+    }
+  }
+}
+

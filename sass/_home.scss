@@ -1,0 +1,100 @@
+/******************************
+ Class for Extension
+ ******************************/
+
+.nav-image-button {
+  height: auto;
+  background-repeat:no-repeat;
+  text-align: center;
+
+  a, a:hover, a:focus {
+    font-family: 'digital_dream_fatnarrow', sans-serif !important;
+    font-size: 2em;
+    line-height: 210px;
+    color: white !important;
+    display: inline-block;
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+  }
+
+  a:hover, a:focus {
+    opacity: 0.8;
+  }
+}
+
+/******************************
+ Home Page Styling
+ ******************************/
+
+.home {
+
+  .sidebar-widget {
+    img {
+      padding-top: 0;
+    }
+
+    .menu-item {
+      padding: 0;
+      background: none;
+      margin-bottom: 40px;
+      
+    }
+
+    ul {
+      background: none;
+    }
+  }
+
+  .wp-caption-text {
+    font-family: 'digital_dream_fatnarrow', sans-serif !important;
+    color: black;
+    font-weight: 400;
+  }
+
+  .jetpack-image-container {
+    .wp-caption {
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .alignleft {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+}
+
+/******************************
+ Home Page Sidebar Nav Menu
+ ******************************/
+
+#nav_menu-2 {
+
+  .about-menu {
+    @extend .nav-image-button;
+
+    @include background-image(image-url('/wp-content/uploads/2015/01/ventura-dock.jpg'));
+  }
+
+  .support-menu {
+    @extend .nav-image-button;
+
+    @include background-image(image-url('/wp-content/uploads/2015/01/shaking-hands.jpg'));
+  }
+
+  .blog-menu {
+    @extend .nav-image-button;
+
+    @include background-image(image-url('/wp-content/uploads/2015/01/pen-e1422236641752.jpg'));
+  }
+
+  .gamechurch-menu {
+    @extend .nav-image-button;
+
+    @include background-image(image-url('/wp-content/uploads/2015/02/jesusgames-button-web.jpg'));
+  }
+}
+
+

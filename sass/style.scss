@@ -1,0 +1,31 @@
+/*!
+ Theme Name:   ENDLESS|Runner
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  ENDLESS|Runner Theme
+ Author:       Chris Slack
+ Author URI:   http://ccslack.com
+ Template:     restimpo
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  restimpo_child
+*/
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+
+@import "susy";
+@import "grids";
+@import "compass/css3";
+
+@import "globals";
+@import "header";
+@import "content";
+@import "sidebar";
+@import "home";
+@import "footer";

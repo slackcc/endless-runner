@@ -1,0 +1,73 @@
+#wrapper-footer {
+
+  border-top: none;
+  background: #262626;
+  width: 100%;
+
+  #footer {
+
+    @include container();
+    
+    p {
+      color: white;
+    }
+
+    a {
+      color: $red-font-color;
+    }
+
+    .footer-widget {
+      .footer-headline {
+        font-family: 'digital_dream_fatnarrow', sans-serif !important;
+        color: white !important;
+        font-weight: 400;
+        font-size: 24px;
+        border-bottom: none;
+        margin-bottom: 15px;
+      }
+    }
+    .textwidget {
+      .fa {
+        font-size: 30px;
+        color: white;
+        padding-right: 15px;
+
+        &:hover {
+          color: $red-font-color;
+        }
+      }
+    }
+
+    .footer-widget-area-1 {
+      @include span(4 of 15);
+      @include push(1 of 15);
+
+    }
+    .footer-widget-area-2 {
+      @include span(4 of 15 );
+      @include push(1 of 15);
+    }
+
+    .footer-widget-area-3 {
+      @include span(4 of 15 last);
+      @include push(1 of 15);
+    }
+  }
+}
+
+// Twitter Feed Styles
+.twitter-timeline {
+  .customisable-border.thm-dark {
+    border-color: #222;
+  }
+
+  .thm-dark {
+    background-color: #222;
+  }
+
+  .stream {
+    .e-entry-title {
+      font: normal normal normal 12px/16px "Raleway", "Helvetica Neue",Roboto,"Segoe UI",Calibri,sans-serif;
+    }
+  }
+}
