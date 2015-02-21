@@ -42,7 +42,7 @@
       @include push(1);
 
       @media screen and (max-width: 1024px) {
-         @include span(12);
+         @include span(6);
          @include push(0);
       }
     }
