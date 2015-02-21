@@ -103,6 +103,7 @@
     .blog-menu,
     .gamechurch-menu {
       @include span(5);
+      @include push(1);
     }
 
 
