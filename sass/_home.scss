@@ -102,12 +102,12 @@
     .support-menu,
     .blog-menu,
     .gamechurch-menu {
-      @include span(5);
-      @include push(1);
+      @include span(6);
+      
       max-width: 320px;
 
       &:nth-child(even) {
-        @include span(5 last);
+        @include span(6 last);
       }
     }
 
