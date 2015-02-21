@@ -103,7 +103,10 @@
     .blog-menu,
     .gamechurch-menu {
       @include span(5);
-      @include push(1);
+
+      &:nth-child(odd) {
+        @include push(1);
+      }
     }
 
 
