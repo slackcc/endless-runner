@@ -101,22 +101,22 @@ border-top: 1px solid #efefef;
   text-align: center;
 }
 
-#menu-item-64:before {
+#menu-item-64 a:before {
   @extend .mobile-nav-button;
   content: "\f015";
 }
 
-#menu-item-26:before {
+#menu-item-26 a:before {
   @extend .mobile-nav-button;
   content: "\f182";
 }
 
-#menu-item-29:before {
+#menu-item-29 a:before {
   @extend .mobile-nav-button;
   content: "\f0c0";
 }
 
-#menu-item-61:before {
+#menu-item-61 a:before {
   @extend .mobile-nav-button;
   content: "\f040";
 }
