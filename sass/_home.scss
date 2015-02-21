@@ -76,6 +76,7 @@
     @extend .nav-image-button;
 
     @include background-image(image-url('/wp-content/uploads/2015/01/ventura-dock.jpg'));
+
   }
 
   .support-menu {
@@ -94,6 +95,17 @@
     @extend .nav-image-button;
 
     @include background-image(image-url('/wp-content/uploads/2015/02/jesusgames-button-web.jpg'));
+  }
+
+  @media screen and (max-width: 1024px) {
+    .about-menu,
+    .support-menu,
+    .blog-menu,
+    .gamechurch-menu {
+      @include span(5);
+    }
+
+
   }
 }
 
