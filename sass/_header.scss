@@ -85,14 +85,43 @@ border-top: 1px solid #efefef;
   display: none !important;
 }
 
+#menu-item-64,
+#menu-item-26,
+#menu-item-29,
+#menu-item-61 {
+  text-align: center;
+}
+
 #menu-item-64:before {
+  @extend .mobile-nav-button;
   content: "\f015";
-  color: red;
+}
+
+#menu-item-26:before {
+  @extend .mobile-nav-button;
+  content: "\f015";
+}
+
+#menu-item-29:before {
+  @extend .mobile-nav-button;
+  content: "\f015";
+}
+
+#menu-item-61:before {
+  @extend .mobile-nav-button;
+  content: "\f015";
+}
+
+}
+
+.mobile-nav-button {
+  color: #777;
+  font-size: 2em;
   font-family: "FontAwesome";
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
 }
-
-}
-
 
 
 // menu icons:
