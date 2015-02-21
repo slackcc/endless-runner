@@ -85,6 +85,15 @@ border-top: 1px solid #efefef;
   display: none !important;
 }
 
+.mobile-nav-button {
+  color: #777;
+  font-size: 2em;
+  font-family: "FontAwesome";
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+}
+
 #menu-item-64,
 #menu-item-26,
 #menu-item-29,
@@ -114,14 +123,7 @@ border-top: 1px solid #efefef;
 
 }
 
-.mobile-nav-button {
-  color: #777;
-  font-size: 2em;
-  font-family: "FontAwesome";
-  display: inline-block;
-  text-align: center;
-  padding-top: 5px;
-}
+
 
 
 // menu icons:
