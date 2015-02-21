@@ -72,12 +72,13 @@
 
 @media screen and (max-width: 1024px) {
 .js #nav {
+@include span(12);
   display: block;
   position: fixed;
 background: white;
 bottom: 0;
 left: 0;
-width: 100%;
+// width: 100%;
 border-top: 1px solid #efefef;
 
 li {
