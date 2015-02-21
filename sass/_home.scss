@@ -103,10 +103,11 @@
     .blog-menu,
     .gamechurch-menu {
       @include span(5);
+      @include push(1);
       max-width: 320px;
-      
-      &:nth-child(odd) {
-        @include push(1);
+
+      &:nth-child(even) {
+        @include span(5 last);
       }
     }
 
