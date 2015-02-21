@@ -23,6 +23,10 @@
     #main-content {
       @include span(7);
 
+      @media screen and (max-width: 1024px) {
+         @include span(12);
+      }
+
       .entry-content {
 
         margin-top: 0;
@@ -36,6 +40,11 @@
     #sidebar {
       @include span(4 last);
       @include push(1);
+
+      @media screen and (max-width: 1024px) {
+         @include span(12);
+         @include push(0);
+      }
     }
   }
 }
