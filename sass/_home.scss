@@ -103,7 +103,8 @@
     .blog-menu,
     .gamechurch-menu {
       @include span(5);
-
+      max-width: 320px;
+      
       &:nth-child(odd) {
         @include push(1);
       }
