@@ -79,7 +79,7 @@
 .menu-main-menu-container {
   padding: 0;
 }
-
+#wrapper-header {
 .menu-box {
 
 @include span(12);
@@ -118,6 +118,7 @@ margin-left: 0 !important;
   &:last-child {
     @include span(3 last);
   }
+}
 }
 }
 
