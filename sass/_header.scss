@@ -82,10 +82,10 @@ left: 0;
 border-top: 1px solid #efefef;
 
 li {
-  @include span(4);
-  &:last-child {
-    @include span(4 last);
-  }
+  width: 25%;
+  // &:last-child {
+  //   @include span(4 last);
+  // }
 }
 }
 
