@@ -89,11 +89,11 @@ left: 0;
 border-top: 1px solid #efefef;
 
 
-
+ margin-left: gutter();
+ margin-right: gutter();
 
 li {
     @include span(3);
- margin-left: gutter();
 
   &:first-child {
     @include span(first 3);
