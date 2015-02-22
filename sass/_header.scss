@@ -90,9 +90,10 @@ border-top: 1px solid #efefef;
 
 
 ul li {
- margin-left: 0;
+    @include span(3);
+ margin-left: gutter();
 
-  @include span(3);
+
   &:last-child {
     @include span(3 last);
   }
