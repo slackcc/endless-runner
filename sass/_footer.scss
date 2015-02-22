@@ -42,15 +42,27 @@
       @include span(4 of 15);
       @include push(1 of 15);
 
+      @media screen and (max-width: 1024px) {
+        @include span(1 of 1);
+      }
+
     }
     .footer-widget-area-2 {
       @include span(4 of 15 );
       @include push(1 of 15);
+
+      @media screen and (max-width: 1024px) {
+        @include span(1 of 1);
+      }
     }
 
     .footer-widget-area-3 {
       @include span(4 of 15 last);
       @include push(1 of 15);
+      
+      @media screen and (max-width: 1024px) {
+        @include span(1 of 1);
+      }
     }
   }
 }
