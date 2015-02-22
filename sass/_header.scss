@@ -96,6 +96,15 @@ border-top: 1px solid #efefef;
  margin-left: gutter();
  margin-right: gutter();
 
+.current-menu-item>a {
+  border-bottom: none;
+
+  &:before {
+    color: $red-font-color;
+  }
+}
+
+
 li {
     @include span(3);
 
