@@ -76,7 +76,9 @@
   display: block !important;
 
 }
-
+#wrapper-header .menu-box a, #wrapper-header .menu-box a:visited {
+  padding: 0 !important;
+}
 .menu-box {
 
 @include span(12);
