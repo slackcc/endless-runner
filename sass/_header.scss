@@ -95,7 +95,9 @@ ul li {
     @include span(3);
  margin-left: gutter();
 
-
+  &:first-child {
+    @include span(first 3);
+  }
   &:last-child {
     @include span(3 last);
   }
