@@ -96,7 +96,8 @@ border-top: 1px solid #efefef;
  margin-left: gutter();
  margin-right: gutter();
 
-.current-menu-item>a {
+.current-menu-item>a,
+.current_page_item>a {
   border-bottom: none;
 
   &:before {
