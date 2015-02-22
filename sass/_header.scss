@@ -95,8 +95,8 @@ border-top: 1px solid #efefef;
 li {
     @include span(3);
 
-margin-right: 0;
-margin-left: 0;
+margin-right: 0 !important;
+margin-left: 0 !important;
 
   &:first-child {
     @include span(first 3);
