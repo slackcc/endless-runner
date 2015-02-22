@@ -72,6 +72,7 @@
 
 @media screen and (max-width: 1024px) {
 .menu-box {
+
 @include span(12);
   display: block;
   position: fixed;
@@ -81,6 +82,10 @@ left: 0;
 // width: 100%;
 border-top: 1px solid #efefef;
 
+.js #nav {
+  display: block;
+  
+}
 li {
   @include span(3);
   &:last-child {
