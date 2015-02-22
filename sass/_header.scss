@@ -84,7 +84,11 @@ border-top: 1px solid #efefef;
 
 .js #nav {
   display: block;
-  
+
+}
+
+ul li {
+ margin-left: 0;
 }
 li {
   @include span(3);
