@@ -76,9 +76,7 @@
   display: block !important;
 
 }
-#wrapper-header .menu-box a, #wrapper-header .menu-box a:visited {
-  padding: 0 !important;
-}
+
 .menu-box {
 
 @include span(12);
@@ -90,9 +88,7 @@ left: 0;
 // width: 100%;
 border-top: 1px solid #efefef;
 
-a {
-  padding: 0 !important;
-}
+
 
 
 ul li {
